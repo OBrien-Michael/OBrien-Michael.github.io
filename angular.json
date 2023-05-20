@@ -35,9 +35,6 @@
             "scripts": []
           },
           "configurations": {
-            "github-pages": {
-              "baseHref": "/Obrien.Michael.github.io/"
-            },
             "production": {
               "budgets": [
                 {
@@ -109,6 +106,9 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
