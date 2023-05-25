@@ -8,14 +8,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 
+import { AboutComponent } from './modules/pages/about/about.component';
+import { HomeComponent } from './modules/pages/home/home.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    
-    //Shared Layout Components
+
+    //Layout Components
     HeaderComponent,
     FooterComponent,
 
+    //Modules Pages Components
+    HomeComponent,
+    AboutComponent
 
   ],
   imports: [
