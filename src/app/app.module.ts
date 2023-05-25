@@ -5,11 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 //Shared Layout Imports
-import { HeaderComponent } from './shared/layout/header/header/header.component';
-import { FooterComponent } from './shared/layout/footer/footer/footer.component';
-
-//Home Pages Imports
-import { LandingComponent } from './home/pages/landing/landing/landing.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +16,7 @@ import { LandingComponent } from './home/pages/landing/landing/landing.component
     HeaderComponent,
     FooterComponent,
 
-    //Home Page Components
-    LandingComponent
+
   ],
   imports: [
     BrowserModule,
