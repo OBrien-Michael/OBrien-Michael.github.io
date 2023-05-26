@@ -1,10 +1,13 @@
-# OBrienMichaelGithubIo
+# Personal Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+Angular version 16.0.2.
+TailwindCss 3.3.2
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+If on Github Codespace run, 'npm run serve-codespace' to allow browser access to running application.
 
 ## Code scaffolding
 
