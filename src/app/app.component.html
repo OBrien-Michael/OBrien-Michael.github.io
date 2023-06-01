@@ -1,8 +1,7 @@
-<!--Header-->
-<app-header></app-header>
-
-<!--One Page Website App-->
-<router-outlet></router-outlet>
-
-<!--Footer-->
-<app-footer></app-footer>
+<div class="h-screen flex flex-col">
+  <app-header class="sticky top-0"></app-header>
+  <div class="flex-1">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>
