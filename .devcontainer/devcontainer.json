@@ -1,0 +1,10 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-contrib/features/angular-cli:2": {},
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {},
+		"ghcr.io/devcontainers-contrib/features/typescript:2": {},
+		"ghcr.io/r3dpoint/devcontainer-features/tailwindcss-standalone-cli:1": {}
+	}
+}
