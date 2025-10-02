@@ -7,7 +7,7 @@
 </nav>
 
 <!-- Hero Section -->
-<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-black px-4">
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-slate-900 to-black px-4">
 	<div class="text-center max-w-4xl mx-auto">
 		<div class="mb-8">
 			<div class="w-64 h-64 mx-auto flex items-center justify-center">
