@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	interface Todo {
-		id: number;
+		id: string;
 		text: string;
 		completed: boolean;
 	}
@@ -28,7 +28,7 @@
 			todos = [
 				...todos,
 				{
-					id: Date.now(),
+					id: crypto.randomUUID(),
 					text: newTodoText.trim(),
 					completed: false
 				}
@@ -38,12 +38,12 @@
 		}
 	}
 
-	function toggleTodo(id: number) {
+	function toggleTodo(id: string) {
 		todos = todos.map((todo) => (todo.id === id ? { ...todo, completed: !todo.completed } : todo));
 		saveTodos();
 	}
 
-	function removeTodo(id: number) {
+	function removeTodo(id: string) {
 		todos = todos.filter((todo) => todo.id !== id);
 		saveTodos();
 	}
@@ -93,7 +93,7 @@
 				<input
 					type="text"
 					bind:value={newTodoText}
-					onkeypress={handleKeyPress}
+					onkeydown={handleKeyPress}
 					placeholder="Enter a new task..."
 					class="flex-1 rounded-lg border border-gray-600 bg-gray-700 px-4 py-3 text-white placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
 				/>
