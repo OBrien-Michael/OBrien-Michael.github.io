@@ -24,15 +24,18 @@ Visit the live portfolio at: [OBrien-Michael.github.io](https://OBrien-Michael.g
 ## 📋 Portfolio Sections
 
 ### About Me
+
 Results-driven software developer with a BSc (Hons) in Contemporary Software Development, specializing in full-stack development, automation, and systems integration.
 
 ### Technical Skills
+
 - **Programming**: Java, C#, PHP, JavaScript, HTML5/CSS3, XAML
 - **Frameworks**: .NET MAUI, Stencil, SvelteKit, WordPress
 - **Databases**: MySQL, Oracle 11g, Firebase, XML
 - **Tools**: Git/GitHub Actions, TFS/Jira, TDD/BDD Testing, API Integration, SEO
 
 ### Featured Projects
+
 - **Trash Tracker App**: Cross-platform mobile app using .NET MAUI and Firebase
 - **West Limerick 102FM Website**: Complete digital solution with automation
 - **Developer Productivity Tracker**: Java application with GitHub API integration
@@ -42,23 +45,27 @@ Results-driven software developer with a BSc (Hons) in Contemporary Software Dev
 ## 🚀 Development
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or pnpm
 
 ### Local Development
 
 1. Clone the repository:
+
 ```sh
 git clone https://github.com/OBrien-Michael/OBrien-Michael.github.io.git
 cd OBrien-Michael.github.io
 ```
 
 2. Install dependencies:
+
 ```sh
 npm install
 ```
 
 3. Start the development server:
+
 ```sh
 npm run dev
 # or open in browser automatically
@@ -72,6 +79,7 @@ npm run build
 ```
 
 Preview the production build:
+
 ```sh
 npm run preview
 ```
