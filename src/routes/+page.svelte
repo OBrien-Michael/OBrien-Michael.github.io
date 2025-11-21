@@ -2,6 +2,13 @@
 <nav class="fixed top-0 left-0 z-50 w-full bg-gray-900 shadow-lg">
 	<div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
 		<div class="text-2xl font-bold text-blue-400">OBrien-Michael</div>
+		<a
+			href="/todos"
+			data-sveltekit-preload-data
+			class="rounded-lg border border-blue-400 px-4 py-2 font-semibold text-blue-400 transition-colors duration-200 hover:bg-blue-600 hover:text-white"
+		>
+			📝 Todo List
+		</a>
 	</div>
 </nav>
 
